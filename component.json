@@ -1,0 +1,7 @@
+{
+  "name": "invisibles",
+  "repo": "matthewmueller/invisibles",
+  "version": "0.0.1",
+  "description": "show spaces",
+  "scripts": ["index.js"]
+}
