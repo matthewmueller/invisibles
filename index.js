@@ -13,6 +13,7 @@ module.exports = invisibles;
  */
 
 function invisibles(str) {
+  if (!str) return '';
   return str
     .replace(/ /g, '·')
     .replace(/\r/g, '¬')
