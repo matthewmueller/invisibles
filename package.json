@@ -1,10 +1,13 @@
 {
   "name": "invisibles",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "make spaces visible",
   "keywords": [],
   "author": "Matthew Mueller <mattmuelle@gmail.com>",
-  "repository": { "type": "git", "url": "git://github.com/MatthewMueller/invisibles.git" },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/MatthewMueller/invisibles.git"
+  },
   "dependencies": {},
   "devDependencies": {
     "mocha": "*",
