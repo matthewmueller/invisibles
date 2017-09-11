@@ -2,7 +2,8 @@
  * Expose `invisibles`
  */
 
-module.exports = invisibles;
+exports['default'] = invisibles
+module.exports = invisibles
 
 /**
  * Convert text into visible spaces
@@ -13,7 +14,7 @@ module.exports = invisibles;
  */
 
 function invisibles(str) {
-  if (!str) return '';
+  if (!str) return ''
   return str
     .replace(/ /g, '·')
     .replace(/\r/g, '¬')
