@@ -2,8 +2,8 @@
  * Expose `invisibles`
  */
 
-exports['default'] = invisibles
 module.exports = invisibles
+module.exports['default'] = invisibles
 
 /**
  * Convert text into visible spaces
